@@ -1301,7 +1301,18 @@ section {
   /* transition: 0.3s; */
 }
 
-/* .section-filter {
+.section-title p::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: #0011ff;
+  bottom: -10px;
+  left: calc(50% - 50px);
+}
+
+.section-filter {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -1315,10 +1326,10 @@ section {
 
 .section-filter h2 span {
   color: #1100ff;
-} */
+}
 
 .pricing #pricing-flters {
-  padding: 50px;
+  padding: 0px;
   margin: 0 auto 0 auto;
   list-style: none;
   text-align: center;
@@ -1348,11 +1359,6 @@ section {
   margin-right: 0;
 }
 
-
-/* .filter-profile,
-.filter-toko {
-  display: none;
-} */
 
 .pricing .box:hover {
   /* transform: scale(1.1); */
@@ -1390,13 +1396,6 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-/* #countdown #days {
-	color: #000000;
-	font-weight: 600;
-	font-size: 16px;
-  
-} */
-
 
 .pricing .price {
   font-size: 36px;
@@ -1431,10 +1430,6 @@ section {
   /* left: calc(50% - 50px); */
 }
 
-/* .pricing img {
-  padding: 30px 40px;
-} */
-
 .pricing ul {
   padding: 0;
   list-style: none;
@@ -1449,11 +1444,6 @@ section {
   /* padding-bottom: 10px; */
   padding-top: 10px;
 }
-
-/* #bi bi-check-circle {
-  color: #0011ff;
-  background-color: #0011ff;
-} */
 
 .pricing ul .na {
   color: #ccc;
@@ -1491,6 +1481,8 @@ section {
   background: #0011ff;
   color: #fff;
 }
+
+
 
 
 
