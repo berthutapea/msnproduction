@@ -183,41 +183,17 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
-  // /**
-  //  * Jasa isotope and filter
-  //  */
-  // window.addEventListener('load', () => {
-  //   let jasaContainer = select('.jasa-container');
-  //   if (jasaContainer) {
-  //     let jasaIsotope = new Isotope(jasaContainer, {
-  //       itemSelector: '.jasa-item',
-  //       layoutMode: 'fitRows'
-  //     });
-
-  //     let jasaFilters = select('#jasa-flters li', true);
-
-  //     on('click', '#jasa-flters li', function (e) {
-  //       e.preventDefault();
-  //       jasaFilters.forEach(function (el) {
-  //         el.classList.remove('filter-active');
-  //       });
-  //       this.classList.add('filter-active');
-
-  //       jasaIsotope.arrange({
-  //         filter: this.getAttribute('data-filter')
-  //       });
-
-  //     }, true);
-  //   }
-
-  // });
+  /**
+   * Paket & Harga
+   */
 
   window.addEventListener('load', () => {
     let pricingContainer = select('.pricing-container');
     if (pricingContainer) {
       let pricingIsotope = new Isotope(pricingContainer, {
         itemSelector: '.pricing-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        filter: '.filter-wedding' // Only show items with class "featured"
       });
 
       let pricingFilters = select('#pricing-flters li', true);
@@ -235,14 +211,31 @@
 
       }, true);
     }
+  });
 
+  window.addEventListener('load', () => {
+    let pricingFilters = document.querySelectorAll("#pricing-flters li");
+    let websiteType = document.getElementById("website-type");
+
+    pricingFilters.forEach(function (el) {
+      el.addEventListener("click", function () {
+        let filter = this.getAttribute("data-filter");
+        if (filter === ".filter-wedding") {
+          websiteType.innerHTML = "Website Wedding";
+        } else if (filter === ".filter-toko") {
+          websiteType.innerHTML = "Website E-Commerce/Toko Online";
+        } else if (filter === ".filter-profile") {
+          websiteType.innerHTML = "Website Company Profile";
+        }
+      });
+    });
   });
 
   /* ..............................................
   Countdown Clock
   ................................................. */
   // Set the date you're counting down to
-  var countDownDate = new Date("Jan 18, 2023 00:00:00").getTime();
+  var countDownDate = new Date("Jan 22, 2023 00:00:00").getTime();
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -293,36 +286,6 @@
 
 })()
 
-// /**
-//  * Menu isotope and filter
-//  */
-// window.addEventListener('load', () => {
-//   let menuContainer = select('.menu-container');
-//   if (menuContainer) {
-//     let menuIsotope = new Isotope(menuContainer, {
-//       itemSelector: '.menu-item',
-//       layoutMode: 'fitRows'
-//     });
-
-//     let menuFilters = select('#menu-flters li', true);
-
-//     on('click', '#menu-flters li', function (e) {
-//       e.preventDefault();
-//       menuFilters.forEach(function (el) {
-//         el.classList.remove('filter-active');
-//       });
-//       this.classList.add('filter-active');
-
-//       menuIsotope.arrange({
-//         filter: this.getAttribute('data-filter')
-//       });
-//       menuIsotope.on('arrangeComplete', function () {
-//         AOS.refresh()
-//       });
-//     }, true);
-//   }
-
-// });
 
 /**
 * Animation on scroll
