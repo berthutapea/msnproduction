@@ -97,7 +97,7 @@
   let backtotop = select('.back-to-top')
   if (backtotop) {
     const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 5000) {
         backtotop.classList.add('active')
       } else {
         backtotop.classList.remove('active')
@@ -113,7 +113,7 @@
   let backtowa = select('.back-to-wa')
   if (backtowa) {
     const toggleBacktowa = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 1000) {
         backtowa.classList.add('active')
       } else {
         backtowa.classList.remove('active')
@@ -221,11 +221,11 @@
       el.addEventListener("click", function () {
         let filter = this.getAttribute("data-filter");
         if (filter === ".filter-wedding") {
-          websiteType.innerHTML = "Website Wedding";
+          websiteType.innerHTML = "Wedding";
         } else if (filter === ".filter-toko") {
-          websiteType.innerHTML = "Website E-Commerce/Toko Online";
+          websiteType.innerHTML = "E-Commerce/Toko Online";
         } else if (filter === ".filter-profile") {
-          websiteType.innerHTML = "Website Company Profile";
+          websiteType.innerHTML = "Company Profile";
         }
       });
     });
