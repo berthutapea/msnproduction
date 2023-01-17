@@ -221,11 +221,19 @@
       el.addEventListener("click", function () {
         let filter = this.getAttribute("data-filter");
         if (filter === ".filter-wedding") {
+<<<<<<< HEAD
           websiteType.innerHTML = "Wedding";
         } else if (filter === ".filter-toko") {
           websiteType.innerHTML = "E-Commerce/Toko Online";
         } else if (filter === ".filter-profile") {
           websiteType.innerHTML = "Company Profile";
+=======
+          websiteType.innerHTML = "Website Wedding";
+        } else if (filter === ".filter-toko") {
+          websiteType.innerHTML = "Website E-Commerce/Toko Online";
+        } else if (filter === ".filter-profile") {
+          websiteType.innerHTML = "Website Company Profile";
+>>>>>>> e8ff972b1061d60ed474bdd7f2992b068c4eda2a
         }
       });
     });
