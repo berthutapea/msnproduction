@@ -132,6 +132,7 @@
     this.classList.toggle('bi-x')
   })
 
+
   /**
    * Mobile nav dropdowns activate
    */
@@ -265,7 +266,6 @@
     }
   }, 1000);
 
-
   /**
    * Testimonials slider
    */
@@ -286,6 +286,15 @@
 
 })()
 
+/**
+ * Preloader
+ */
+let preloader = document.querySelector('#preloader');
+if (preloader) {
+  window.addEventListener('load', () => {
+    preloader.style.display = "none";
+  });
+}
 
 /**
 * Animation on scroll
