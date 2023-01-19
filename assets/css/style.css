@@ -632,6 +632,10 @@ h6 {
   #hero h2 {
     font-size: 28px;
   }
+
+  #hero h4 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -992,7 +996,9 @@ section {
   }
 
   .jasa .buy-btn {
-    padding: 8px 75px 8px 80px;
+    padding: 8px 60px 8px 60px;
+    text-align: center;
+    font-size: 15px;
   }
 }
 
@@ -1002,9 +1008,9 @@ section {
     margin: 0 auto 30px auto;
   }
 
-  .jasa .buy-btn {
+  /* .jasa .buy-btn {
     padding: 8px 75px 8px 80px;
-  }
+  } */
 }
 
 @media (max-width: 420px) {
