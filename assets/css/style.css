@@ -123,6 +123,7 @@ h6 {
   height: 60px;
   border-radius: 50px;
   transition: all 0.4s;
+  box-shadow: 0px 0px 5px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .back-to-wa i {
@@ -165,6 +166,7 @@ h6 {
   width: 90px;
   height: 20px;
   border-radius: 7px;
+  box-shadow: 0px 0px 2px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 /*--------------------------------------------------------------
@@ -956,13 +958,12 @@ section {
 
 .jasa .buy-btn {
   display: inline-block;
-  padding: 8px 100px 10px 100px;
+  padding: 8px 90px 10px 90px;
   border-radius: 50px;
   color: #0011ff;
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #0011ff;
@@ -981,7 +982,6 @@ section {
   width: 150px;
   margin-top: -20px;
   padding-bottom: 15px;
-  /* height: 200px; */
   object-fit: contain;
 }
 
@@ -996,9 +996,9 @@ section {
   }
 
   .jasa .buy-btn {
-    padding: 8px 60px 8px 60px;
+    padding: 8px 55px 8px 60px;
     text-align: center;
-    font-size: 15px;
+    justify-content: center;
   }
 }
 
@@ -1008,9 +1008,6 @@ section {
     margin: 0 auto 30px auto;
   }
 
-  /* .jasa .buy-btn {
-    padding: 8px 75px 8px 80px;
-  } */
 }
 
 @media (max-width: 420px) {
