@@ -28,7 +28,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-/* #preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,7 +72,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -84,7 +84,7 @@ h6 {
   right: -20px;
   bottom: 180px;
   z-index: 996;
-  background: #1100ff;
+  background: #ff0000;
   width: 50px;
   height: 40px;
   border-radius: 18px;
