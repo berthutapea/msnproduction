@@ -7,3 +7,17 @@ PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Te
 1. Jasa Pembuatan Website dan Aplikasi Android & iOS: Sistem Informasi, Sistem Administrasi, Sistem Promosi & Wedding.
 2. Jasa pemasaran produk atau jasa melalui saluran Periklanan Online: Mesin Pencarian Google, Jaringan Display Iklan Google, Youtube, Facebook, Instagram, Tiktok, Twitter
 3. Jasa pembuatan Branding & Konten Kreatif.
+
+# Visi & Misi MSN PRODUCTION
+
+Misi
+
+Menjadi Perusahaan swasta yang handal dalam penyedia jasa dan perdagangan sesuai dengan KBLI yang dimiliki.
+
+Layanan
+
+Dapatkan loyalitas konsumen, berikan mereka pengalaman yang berkesan dengan menciptakan hubungan yang saling menguntungkan.
+
+Visi
+
+Dalam melaksanakan tugas - tugasnya Mulia Sejati Nusantara Production senantiasa menjaga, profesionalisme, kejujuran, kebersamaan, ketertiban, dan kesehatan kerja sehingga dihasilkan suatu karya yang berkualitas
