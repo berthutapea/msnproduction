@@ -10,14 +10,14 @@ PT. MULIA SEJATI NUSANTARA Berdiri Pada Tanggal 24 Juni 2019 Sebuah Perseroan Te
 
 # Visi & Misi MSN PRODUCTION
 
-Misi
+*Misi
 
 Menjadi Perusahaan swasta yang handal dalam penyedia jasa dan perdagangan sesuai dengan KBLI yang dimiliki.
 
-Layanan
+*Layanan
 
 Dapatkan loyalitas konsumen, berikan mereka pengalaman yang berkesan dengan menciptakan hubungan yang saling menguntungkan.
 
-Visi
+*Visi
 
 Dalam melaksanakan tugas - tugasnya Mulia Sejati Nusantara Production senantiasa menjaga, profesionalisme, kejujuran, kebersamaan, ketertiban, dan kesehatan kerja sehingga dihasilkan suatu karya yang berkualitas
